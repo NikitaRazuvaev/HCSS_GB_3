@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  background-color: #222222;
+}
+.header .nav {
+  height: 75px;
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .left_posit {
+  display: flex;
+}
+.header .nav .left_posit .logo_page {
+  padding-right: 41px;
+}
+.header .nav .left_posit .form_header_search {
+  display: flex;
+}
+.header .nav .left_posit .form_header_search #search {
+  background: none;
+  border: none;
+}
+.header .nav .bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav .bar .list_links_menu {
+  padding: 0 33px;
+}
+.header .nav .bar .list_links_menu img {
+  width: 33px;
+  height: 33px;
+}
+.header .nav .bar .menu_block {
+  display: none;
+  position: relative;
+  list-style: none;
+  background: #fff;
+}
+.header .nav .bar .menu_block .menu_block:hover {
+  display: block;
+}
+
+.header_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.8fr;
+  align-items: center;
+  background-color: rgb(241, 228, 230);
+}
+.header_top .header_top_img {
+  grid-column: 1;
+  grid-row: 1;
+}
+.header_top .header_top_info {
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 15px;
+  border-left: 12px solid rgb(241, 109, 127);
+}
+
+.infoblok-imges {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: rgb(241, 109, 127);
+  justify-items: center;
+}
+.infoblok-imges .blok {
+  grid-column: 1/4;
+  width: 360px;
+  height: 260px;
+}
+.infoblok-imges .b1 {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/info-img01.png);
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  justify-items: center;
+}
+.infoblok-imges .b2 {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/info-img02.png);
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  justify-items: center;
+}
+.infoblok-imges .b3 {
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/info-img03.png);
+  grid-column: 3;
+  grid-row: 1;
+  display: grid;
+  justify-items: center;
+}
+.infoblok-imges .b4 {
+  width: 1140px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/info-img04.png);
+  grid-row: 2;
+  display: grid;
+  justify-items: center;
+}
+.infoblok-imges .subtitle {
+  display: block;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
